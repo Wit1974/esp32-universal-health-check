@@ -1,9 +1,3 @@
-# esp32-universal-health-check
-🏥 Универсальная диагностика ESP32 (C6, S3, WROOM) + гайд по настройке Arduino IDE. Модель чипа, MAC-адреса, RAM, Flash, тест пинов и LED.
-
-🏥 ESP32 Universal Health Check + Arduino IDE setup guide. Chip model, MAC addresses, RAM, Flash, GPIO test, LED blink.
-# 🏥 ESP32 Universal Health Check | Универсальная диагностика ESP32
-
 [![ESP32](https://img.shields.io/badge/ESP32-All%20Series-000000?style=for-the-badge&logo=espressif&logoColor=white)](https://www.espressif.com/)
 [![Arduino IDE](https://img.shields.io/badge/Arduino-IDE-00878F?style=for-the-badge&logo=arduino&logoColor=white)](https://www.arduino.cc/)
 [![Version](https://img.shields.io/badge/Version-2.2-blue?style=for-the-badge)](https://github.com/Wit1974/esp32-universal-health-check)
@@ -82,3 +76,23 @@
 ---
 
 ## 📊 Example output | Пример вывода
+========================================
+🏥 ДИАГНОСТИКА ESP32 ЗАПУЩЕНА
+========================================
+🔹 МОДЕЛЬ ЧИПА: ESP32-C6 (Ревизия v1)
+🔹 ЯДРА: 1 | ЧАСТОТА: 160 МГц
+🔹 FLASH ПАМЯТЬ: 4 МБ
+🔹 СВОБОДНО RAM: 312 КБ
+🔹 Wi-Fi MAC: A4:12:3F:78:90:45
+🔹 Zigbee MAC: A4:12:3F:56:78:90
+
+🔌 ПРОВЕРКА ДОСТУПНЫХ ГНЕЗД (GPIO):
+GPIO0:✅ GPIO1:✅ GPIO2:⚠️ GPIO3:✅
+...
+
+💡 ТЕСТ LED: Мигаю на GPIO 8
+[LED blinks 3 times]
+
+========================================
+ПРОВЕРКА ЗАВЕРШЕНА
+========================================
